@@ -10,5 +10,5 @@ for (i = 0; i < aco.length; i++) {
         } else {
             panel.style.maxHeight = panel.scrollHeight + "px";
         }
-    }
+    };
 }
