@@ -8,7 +8,7 @@ button {
     font-size: 30px;
     text-align: left;
     box-shadow: 0 2px 0px 0px #4C3185;
-    border: 0px 0px 1.5px 1.5px;
+    border: 0px 0px 1.5px;
     color: white;
 
 }
@@ -41,7 +41,7 @@ button.accordion.active::after {
     display: block;
 }
 div.content {
-    padding: 0 20;
+    padding: 0px 20px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.35s ease-in;
