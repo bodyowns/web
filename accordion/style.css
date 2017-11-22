@@ -1,20 +1,39 @@
+h1,h2 {
+    text-align:center;
+}
 button {
     display: block;
     margin: auto;
+    font-family: "fontawesome";
+    font-size: 30px;
+    text-align: left;
+    box-shadow: 0 2px 0px 0px #4C3185;
+    border: 0px 0px 1.5px 1.5px;
+    color: white;
+
 }
 
 button.accordion {
     width: 70%;
+
     margin: auto;
     padding: 20px;
     cursor: pointer;
+    background-color: #9E38B0;
+
+}
+button.accordion::after {
+    content: '\f107';
+    font-size: 30px;
+    float: right;
+}
+button.accordion.active, button.accordion:hover {
     background-color: #6844B7;
 }
 
-button.accordion.active, button.accordion:hover {
-    background-color: #9E38B0;
+button.accordion.active::after {
+    content: '\f106';
 }
-
 .content {
     width: 70%;
     margin: auto;
@@ -26,8 +45,13 @@ div.content {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.35s ease-in;
+    padding-top: 2.5px;
 }
 
 div > p {
     color: grey;
+    font-family: "fontawesome";
+    font-size: 20px;
+    margin: 10px 5px 10px;
+
 }
