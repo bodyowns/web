@@ -1,0 +1,33 @@
+button {
+    display: block;
+    margin: auto;
+}
+
+button.accordion {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #6844B7;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #9E38B0;
+}
+
+.content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+div.content {
+    padding: 0 20;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease-in;
+}
+
+div > p {
+    color: grey;
+}
