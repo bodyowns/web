@@ -10,7 +10,6 @@ button {
     box-shadow: 0 2px 0px 0px #4C3185;
     border: 0px 0px 1.5px;
     color: white;
-
 }
 
 button.accordion {
@@ -20,7 +19,6 @@ button.accordion {
     padding: 20px;
     cursor: pointer;
     background-color: #9E38B0;
-
 }
 button.accordion::after {
     content: '\f107';
@@ -34,12 +32,14 @@ button.accordion.active, button.accordion:hover {
 button.accordion.active::after {
     content: '\f106';
 }
+
 .content {
     width: 70%;
     margin: auto;
     text-align: center;
     display: block;
 }
+
 div.content {
     padding: 0px 20px;
     max-height: 0;
@@ -51,4 +51,3 @@ div.content {
     font-size: 20px;
     margin: 10px 5px 10px;
 }
-
