@@ -46,12 +46,9 @@ div.content {
     overflow: hidden;
     transition: max-height 0.35s ease-in;
     padding-top: 2.5px;
-}
-
-div > p {
     color: grey;
     font-family: "fontawesome";
     font-size: 20px;
     margin: 10px 5px 10px;
-
 }
+
